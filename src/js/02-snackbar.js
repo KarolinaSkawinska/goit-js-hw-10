@@ -1,3 +1,6 @@
+import flatpickr from 'flatpickr';
+import 'flatpickr/dist/flatpickr.min.css';
+
 document.querySelector('.form').addEventListener('submit', function (event) {
   event.preventDefault();
 
